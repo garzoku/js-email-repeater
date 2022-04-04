@@ -4,5 +4,5 @@ const $output = document.querySelector("output")
 
 $button.addEventListener("click", event => {
     const data = $input.value
-    $output.textContent = data
+    $output.value = data
 })
